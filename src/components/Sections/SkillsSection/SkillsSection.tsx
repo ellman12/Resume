@@ -13,15 +13,15 @@ const softSkills: Skill[] = [
         tooltip: "Throughout my years of experience, I've excelled at picking up new technologies and adapting to new teams and work."
     },
     {
-        name: "innovative",
+        name: "Innovative",
         tooltip: "I have a keen eye for finding more efficient methods of doing things, and I enjoy improving the efficiency of code and other developers."
     },
     {
-        name: "self-motivated",
+        name: "Self-motivated",
         tooltip: "I thrive on setting goals and taking the initiative to complete them without external pressure. My constant drive to learn and improve keeps me engaged and focused on achieving success."
     },
     {
-        name: "tenacious",
+        name: "Tenacious",
         tooltip: "When issues arise during development, I always find a way to overcome them, either by adjusting my approach or creating a new one."
     }
 ];

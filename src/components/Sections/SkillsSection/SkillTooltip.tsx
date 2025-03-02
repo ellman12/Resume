@@ -9,7 +9,7 @@ interface Props {
 const SkillTooltip: FC<Props> = ({skill, tooltip}) => {
     return (
         <Tooltip title={tooltip} arrow={true}>
-            <span className="cursor-help">{skill}</span>
+            <span className="hover:cursor-help not-print:underline not-print:decoration-dotted">{skill}</span>
         </Tooltip>
     );
 };
