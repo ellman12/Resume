@@ -1,2 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200..800&display=swap');
+
 @import "tailwindcss";
 
+* {
+    color: white;
+    user-select: none;
+    font-family: "Assistant", sans-serif;
+}
+
+/* Fixes dumb issue with Material UI Timeline */
+li::before {
+    display: none;
+}

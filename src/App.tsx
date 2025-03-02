@@ -1,11 +1,10 @@
-import './App.css'
+import "./App.css";
+import Resume from "./Resume.tsx"
 
-function App() {
-
-  return (
-    <>
-    </>
-  )
+export default function App() {
+    return (
+        <div className="bg-[#343A40] h-full w-full">
+                        <Resume/>
+        </div>
+    );
 }
-
-export default App

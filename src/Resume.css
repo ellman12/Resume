@@ -1,0 +1,16 @@
+* {
+    user-select: initial;
+}
+
+b {
+    font-weight: 600;
+}
+
+div[role="tooltip"] > div {
+    background-color: #101114;
+    font-size: var(--text-sm);
+}
+
+div[role="tooltip"] span {
+    color: #101114;
+}
