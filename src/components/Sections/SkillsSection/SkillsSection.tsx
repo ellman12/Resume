@@ -1,6 +1,6 @@
 import Section from "../../../Section.tsx";
 import SkillTooltip from "./SkillTooltip.tsx";
-import {ReactNode} from "react";
+import {Fragment, ReactNode} from "react";
 
 type Skill = {
     name: string;
@@ -40,10 +40,10 @@ export default function SkillsSection() {
 
                 <p>
                     <b>Soft Skills:</b>&nbsp;
-                    {softSkills.map((skill, index) => (<>
+                    {softSkills.map((skill, index) => (<Fragment key={skill.name}>
                         <SkillTooltip key={skill.name} skill={skill.name} tooltip={skill.tooltip}/>
                         {index < 3 && <>,&nbsp;</>}
-                    </>))}
+                    </Fragment>))}
                 </p>
             </div>
         </Section>
