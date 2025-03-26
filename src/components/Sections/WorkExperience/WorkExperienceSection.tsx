@@ -11,6 +11,7 @@ export default function WorkExperienceSection() {
                     <li>Assisted with testing before release and helped resolve issues identified during testing.</li>
                     <li>Demonstrated proficiency in frontend development and a commitment to leveraging technology for positive societal outcomes.</li>
                     <li>Currently working on SWIM, an internal React app for managing employees.</li>
+					TODO: service monitor, cleaned up code, etc.
                 </WorkExperienceItem>
 
                 <WorkExperienceItem title="Software Engineer Intern" location="Remote" company="Daktronics" startDate="May 2022" endDate="May 2023">
