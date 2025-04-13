@@ -6,7 +6,7 @@ export default function WorkExperienceSection() {
         <Section title="Work Experience">
             <div className="flex flex-col gap-4">
                 <WorkExperienceItem title="Software Engineer" location="Sioux Falls, SD" company="KBR" startDate="June 2023" endDate="Present">
-                    <li>Integral member of the FEWS NET team, which uses data to assist governments worldwide with famine prediction and preparation.</li>
+                    <li>Member of FEWS NET, which assists governments worldwide with famine prediction and preparation.</li>
                     <li>Rewrote FEWS NET website using React, Next.js, TypeScript, and Tailwind.</li>
                     <li>Assisted with testing before release and helped resolve issues identified during testing.</li>
                     <li>Demonstrated proficiency in frontend development and a commitment to leveraging technology for positive societal outcomes.</li>

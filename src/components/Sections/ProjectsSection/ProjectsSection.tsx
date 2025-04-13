@@ -14,7 +14,8 @@ export default function ProjectsSection() {
                 <Project name="WingTech Bot Rewrite" href="https://github.com/ellman12/WingTechBot" hrefDisplay="github.com/ellman12/WingTechBot">
                     <li>Rewrote and modernized a C# Discord bot used by a community of 40+ members.</li>
                     <li>Deployed with Docker on AWS EC2, integrating RDS for scalable, persistent storage.</li>
-                    <li>Added features including reaction tracking, karma, games, and AI functionality via Gemini LLM.</li>
+                    <li>Added reaction tracking, karma, games, and inside jokes.</li>
+                    <li>Features LLM-powered AI chatbot using Google Gemini.</li>
                     <li>Practiced test-driven development using NUnit with comprehensive unit and integration tests.</li>
                 </Project>
             </div>
