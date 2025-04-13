@@ -12,9 +12,10 @@ export default function ProjectsSection() {
                 </Project>
 
                 <Project name="WingTech Bot Rewrite" href="https://github.com/ellman12/WingTechBot" hrefDisplay="github.com/ellman12/WingTechBot">
-                    <li>Rewrote C# bot for private Discord server with over 40 members. Hosted on AWS EC2 with Docker.</li>
-                    <li>Implemented reaction tracking, karma, games, and additional interactive features.</li>
-                    <li>Utilized NUnit for test-driven development with extensive unit and integration tests to ensure reliability, and AWS RDS for scalable backend storage.</li>
+                    <li>Rewrote and modernized a C# Discord bot used by a community of 40+ members.</li>
+                    <li>Deployed with Docker on AWS EC2, integrating RDS for scalable, persistent storage.</li>
+                    <li>Added features including reaction tracking, karma, games, and AI functionality via Gemini LLM.</li>
+                    <li>Practiced test-driven development using NUnit with comprehensive unit and integration tests.</li>
                 </Project>
             </div>
         </Section>
