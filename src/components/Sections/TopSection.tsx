@@ -2,7 +2,6 @@ import Title from "../Title";
 import LinkWithIcon from "../LinkWithIcon.tsx";
 import CodeIcon from "@mui/icons-material/Code";
 import EmailIcon from "@mui/icons-material/Email";
-import GitHubIcon from "@mui/icons-material/GitHub";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import LocalPhoneIcon from '@mui/icons-material/LocalPhone';
 
@@ -20,9 +19,8 @@ export default function TopSection() {
                 </div>
 
                 <LinkWithIcon href="mailto:ellduc4@gmail.com" icon={<EmailIcon/>}>ellduc4@gmail.com</LinkWithIcon>
-                <LinkWithIcon href="http://github.com/ellman12" icon={<GitHubIcon/>}>ellman12</LinkWithIcon>
                 <LinkWithIcon href="http://linkedin.com/in/elliott-ducharme" icon={<LinkedInIcon/>}>elliott-ducharme</LinkWithIcon>
-                <LinkWithIcon href="https://ellman12.github.io/Portfolio/" icon={<CodeIcon/>}>Portfolio</LinkWithIcon>
+				<LinkWithIcon href="https://ellman12.github.io/Portfolio/" icon={<CodeIcon/>}>Portfolio</LinkWithIcon>
             </div>
         </div>
     );
