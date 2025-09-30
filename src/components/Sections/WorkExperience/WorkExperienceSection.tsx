@@ -6,17 +6,15 @@ export default function WorkExperienceSection() {
         <Section title="Work Experience">
             <div className="flex flex-col gap-4">
                 <WorkExperienceItem title="Software Engineer" location="Sioux Falls, SD" company="KBR" startDate="June 2023" endDate="Present">
-                    <li>Member of FEWS NET, which assists governments worldwide with famine prediction and preparation.</li>
-                    <li>Rewrote FEWS NET website using React, Next.js, TypeScript, and Tailwind.</li>
-                    <li>Assisted with testing before release and helped resolve issues identified during testing.</li>
-                    <li>Demonstrated proficiency in frontend development and a commitment to leveraging technology for positive societal outcomes.</li>
-                    <li>Currently working on SWIM, an internal React app for managing employees.</li>
+                    <li>Rebuilt ReactTS apps and reusable components for global famine prediction, preparation, and management.</li>
+                    <li>Optimized map viewers, reducing page load times by 90+% and vastly improving performance and reliability.</li>
+                    <li>Enabled humanitarian organizations to make faster, data-driven decisions, directly supporting famine prevention efforts across Africa and beyond.</li>
                 </WorkExperienceItem>
 
                 <WorkExperienceItem title="Software Engineer Intern" location="Remote" company="Daktronics" startDate="May 2022" endDate="May 2023">
-                    <li>Tested new software and hardware versions for digital signage using Azure DevOps, resolving impediments to ensure product functionality.</li>
-                    <li>Gained experience communicating issues with members of the appropriate teams when issues arose.</li>
-                    <li>Contributed to Orion, a C# web app for automating test cases years in the making.</li>
+                    <li>Tested new software and hardware versions for digital signage using Azure DevOps.</li>
+                    <li>Escalated and tracked critical defects, ensuring rapid fixes and minimizing downtime.</li>
+                    <li>Implemented new features in Orion, a large-scale C# web app for test automation, increasing automated test coverage and accelerating delivery for multiple product lines.</li>
                 </WorkExperienceItem>
             </div>
         </Section>

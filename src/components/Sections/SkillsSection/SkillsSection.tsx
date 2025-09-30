@@ -31,11 +31,11 @@ export default function SkillsSection() {
         <Section title="Skills">
             <div className="flex flex-col gap-1">
                 <p>
-                    <b>Languages:</b> C#, SQL, TypeScript, Java, C++, Python
+                    <b>Languages:</b> TypeScript, C#, SQL, Java, C++, Python
                 </p>
 
                 <p>
-                    <b>Technologies:</b> .NET, React, Next.js, Tailwind, NUnit, Blazor, Godot
+                    <b>Technologies:</b> React, .NET, Next.js, Tailwind, NUnit, Godot
                 </p>
 
                 <p>
