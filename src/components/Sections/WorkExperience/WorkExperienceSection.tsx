@@ -6,8 +6,9 @@ export default function WorkExperienceSection() {
         <Section title="Work Experience">
             <div className="flex flex-col gap-4">
                 <WorkExperienceItem title="Software Engineer" location="Sioux Falls, SD" company="KBR" startDate="June 2023" endDate="Present">
-                    <li>Rebuilt ReactTS apps and reusable components for global famine prediction, preparation, and management.</li>
-                    <li>Optimized map viewers, reducing page load times by 90+% and vastly improving performance and reliability.</li>
+                    <li>Rebuilt ReactTS apps and components for global famine prediction, preparation, and management.</li>
+                    <li>Optimized map viewers, reducing page load times by 90+% and improving reliability.</li>
+                    <li>Built CI/CD pipelines with automated testing to accelerate deployment and improve code reliability.</li>
                     <li>Enabled humanitarian organizations to make faster, data-driven decisions, directly supporting famine prevention efforts across Africa and beyond.</li>
                 </WorkExperienceItem>
 
