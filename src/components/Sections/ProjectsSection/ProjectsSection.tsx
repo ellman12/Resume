@@ -11,7 +11,7 @@ export default function ProjectsSection() {
                     <li>Libraries can scale into the millions with no performance issues.</li>
                 </Project>
 
-                <Project name="WingTech Bot Rewrite" href="https://github.com/ellman12/WingTechBot" hrefDisplay="github.com/ellman12/WingTechBot">
+                <Project name="WingTech Bot Rewrite" href="https://github.com/ellman12/WingTechBot-MK3" hrefDisplay="github.com/ellman12/WingTechBot">
                     <li>Rewrote and modernized a C# Discord bot used by a community of 40+ members.</li>
                     <li>Deployed with Docker on AWS EC2, integrating RDS for scalable, persistent storage.</li>
                     <li>Added reaction tracking, karma, games, and inside jokes.</li>
