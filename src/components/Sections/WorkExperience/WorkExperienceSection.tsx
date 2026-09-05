@@ -8,14 +8,13 @@ export default function WorkExperienceSection() {
                 <WorkExperienceItem title="Software Engineer" location="Sioux Falls, SD" company="KBR" startDate="June 2023" endDate="Present">
                     <li>Rebuilt ReactTS apps and components for global famine prediction, preparation, and management.</li>
                     <li>Optimized map viewers, reducing page load times by 90+% and improving reliability.</li>
-                    <li>Built CI/CD pipelines with automated testing to accelerate deployment and improve code reliability.</li>
-                    <li>Enabled humanitarian organizations to make faster, data-driven decisions, directly supporting famine prevention efforts across Africa and beyond.</li>
+                    <li>Built CI/CD pipelines with automated testing to expedite releases and improve code reliability.</li>
                 </WorkExperienceItem>
 
                 <WorkExperienceItem title="Software Engineer Intern" location="Remote" company="Daktronics" startDate="May 2022" endDate="May 2023">
                     <li>Tested new software and hardware versions for digital signage using Azure DevOps.</li>
                     <li>Escalated and tracked critical defects, ensuring rapid fixes and minimizing downtime.</li>
-                    <li>Implemented new features in Orion, a large-scale C# web app for test automation, increasing automated test coverage and accelerating delivery for multiple product lines.</li>
+                    <li>Implemented features in Orion, a C# web app for test automation, increasing automated test coverage and accelerating delivery for multiple product lines.</li>
                 </WorkExperienceItem>
             </div>
         </Section>
