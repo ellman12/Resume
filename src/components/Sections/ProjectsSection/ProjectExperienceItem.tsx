@@ -9,7 +9,7 @@ interface Props {
     children: ReactNode;
 }
 
-const WorkExperienceItem: FC<Props> = ({name, href, hrefDisplay, children}) => {
+const ProjectExperienceItem: FC<Props> = ({name, href, hrefDisplay, children}) => {
     return (
         <div className="flex flex-col">
             <div className="flex flex-row items-center justify-between">
@@ -29,4 +29,4 @@ const WorkExperienceItem: FC<Props> = ({name, href, hrefDisplay, children}) => {
     );
 };
 
-export default WorkExperienceItem;
+export default ProjectExperienceItem;

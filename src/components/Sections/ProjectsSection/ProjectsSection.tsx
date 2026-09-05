@@ -1,5 +1,5 @@
 import Section from "../../../Section.tsx";
-import Project from "./Project.tsx";
+import Project from "./ProjectExperienceItem.tsx";
 
 export default function ProjectsSection() {
     return (
