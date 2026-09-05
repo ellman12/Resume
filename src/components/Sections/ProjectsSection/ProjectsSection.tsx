@@ -5,7 +5,7 @@ export default function ProjectsSection() {
     return (
         <Section title="Projects">
             <div className="flex flex-col gap-4">
-                <Project name="WingTech Bot Rewrite" href="https://github.com/ellman12/WingTechBot-MK3" hrefDisplay="github.com/ellman12/WingTechBot">
+                <Project name="WingTech Bot Rewrite" href="https://github.com/ellman12/WingTechBot-MK3" hrefDisplay="github.com/ellman12/WingTechBot-MK3">
                     <li>Led a full rewrite of a Discord bot, migrating from C# to TypeScript using Discord.js improving API compatibility and long-term maintainability.</li>
                     <li>Designed a modular command architecture with analytics, moderation tools, and database storage.</li>
                     <li>Integrated an LLM-powered chatbot using Google Gemini.</li>
