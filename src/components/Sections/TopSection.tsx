@@ -18,9 +18,9 @@ export default function TopSection() {
                     <LocalPhoneIcon/>
                 </div>
 
-                <LinkWithIcon href="mailto:ellduc4@gmail.com" icon={<EmailIcon/>}>ellduc4@gmail.com</LinkWithIcon>
-                <LinkWithIcon href="https://linkedin.com/in/elliott-ducharme" icon={<LinkedInIcon/>}>elliott-ducharme</LinkWithIcon>
-		<LinkWithIcon href="https://elliottduchar.me" icon={<CodeIcon/>}>elliottduchar.me</LinkWithIcon>
+                <LinkWithIcon href="mailto:ellduc4@gmail.com" icon={<EmailIcon htmlColor="black"/>}>ellduc4@gmail.com</LinkWithIcon>
+                <LinkWithIcon href="https://linkedin.com/in/elliott-ducharme" icon={<LinkedInIcon htmlColor="black"/>}>elliott-ducharme</LinkWithIcon>
+		<LinkWithIcon href="https://elliottduchar.me" icon={<CodeIcon htmlColor="black"/>}>elliottduchar.me</LinkWithIcon>
             </div>
         </div>
     );
