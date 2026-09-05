@@ -7,7 +7,7 @@ import "./Resume.css";
 
 export default function Resume() {
     return (<div className="bg-white pt-8 pb-6 px-12 mx-auto flex flex-col gap-4" style={{width: "8.5in", height: "11in"}}>
-        <title>Elliott DuCharme Resume</title>
+        <title>Elliott DuCharme Résumé</title>
 
         <TopSection/>
         <SkillsSection/>
