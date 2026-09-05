@@ -3,7 +3,7 @@ import LinkWithIcon from "../LinkWithIcon.tsx";
 import CodeIcon from "@mui/icons-material/Code";
 import EmailIcon from "@mui/icons-material/Email";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
-import LocalPhoneIcon from '@mui/icons-material/LocalPhone';
+import LocalPhoneIcon from "@mui/icons-material/LocalPhone";
 
 export default function TopSection() {
     return (
@@ -20,7 +20,7 @@ export default function TopSection() {
 
                 <LinkWithIcon href="mailto:ellduc4@gmail.com" icon={<EmailIcon htmlColor="black"/>}>ellduc4@gmail.com</LinkWithIcon>
                 <LinkWithIcon href="https://linkedin.com/in/elliott-ducharme" icon={<LinkedInIcon htmlColor="black"/>}>elliott-ducharme</LinkWithIcon>
-		<LinkWithIcon href="https://elliottduchar.me" icon={<CodeIcon htmlColor="black"/>}>elliottduchar.me</LinkWithIcon>
+                <LinkWithIcon href="https://elliottduchar.me" icon={<CodeIcon htmlColor="black"/>}>elliottduchar.me</LinkWithIcon>
             </div>
         </div>
     );

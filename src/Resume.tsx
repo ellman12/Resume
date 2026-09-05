@@ -4,9 +4,10 @@ import WorkExperienceSection from "./components/Sections/WorkExperience/WorkExpe
 import ProjectsSection from "./components/Sections/ProjectsSection/ProjectsSection.tsx";
 import EducationSection from "./components/Sections/EducationSection.tsx";
 import "./Resume.css";
+import ActivitiesSection from "./components/Sections/Activities/ActivitiesSection.tsx";
 
 export default function Resume() {
-    return (<div className="bg-white pt-8 pb-6 px-12 mx-auto flex flex-col gap-4" style={{width: "8.5in", height: "11in"}}>
+    return (<div className="bg-white pt-4 px-12 mx-auto flex flex-col gap-4" style={{width: "8.5in", height: "11in"}}>
         <title>Elliott DuCharme Résumé</title>
 
         <TopSection/>
@@ -14,5 +15,6 @@ export default function Resume() {
         <WorkExperienceSection/>
         <ProjectsSection/>
         <EducationSection/>
+        <ActivitiesSection/>
     </div>);
 }
