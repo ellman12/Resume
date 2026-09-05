@@ -14,7 +14,6 @@ export default function ProjectsSection() {
 
                 <Project name="MemoryMosaic" href="https://github.com/ellman12/MemoryMosaic" hrefDisplay="github.com/ellman12/MemoryMosaic">
                     <li>A Blazor app for storing a lifetime of photos and videos in PostgreSQL.</li>
-                    <li>Gained extensive experience with media metadata and creating/optimizing web apps and databases.</li>
                     <li>Libraries can scale into the millions and load near-instantly.</li>
                 </Project>
             </div>
