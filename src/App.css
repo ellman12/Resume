@@ -3,12 +3,6 @@
 @import "tailwindcss";
 
 * {
-    color: white;
     user-select: none;
     font-family: "Assistant", sans-serif;
-}
-
-/* Fixes dumb issue with Material UI Timeline */
-li::before {
-    display: none;
 }
