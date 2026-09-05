@@ -7,7 +7,7 @@ interface Props {
 
 const Link: FC<Props> = ({href, children}) => {
     return (
-        <a style={{color: "cornflowerblue"}} className="hover:cursor-pointer hover:underline" href={href}>
+        <a style={{color: "cornflowerblue"}} className="hover:cursor-pointer hover:underline" href={href} target="_blank">
             {children}
         </a>
     );
